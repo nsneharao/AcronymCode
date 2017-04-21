@@ -245,7 +245,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = Mohnish;
+				ORGANIZATIONNAME = Sneha;
 				TargetAttributes = {
 					2DB1ACCA1EA98F3600A2601A = {
 						CreatedOnToolsVersion = 7.0;
@@ -507,7 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AcronymsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Mohnish.AcronymsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sneha.AcronymsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -519,7 +519,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AcronymsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Mohnish.AcronymsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sneha.AcronymsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -530,7 +530,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AcronymsTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Mohnish.AcronymsTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sneha.AcronymsTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcronymsTest.app/AcronymsTest";
 			};
@@ -542,7 +542,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AcronymsTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Mohnish.AcronymsTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sneha.AcronymsTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcronymsTest.app/AcronymsTest";
 			};
@@ -553,7 +553,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = AcronymsTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Mohnish.AcronymsTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sneha.AcronymsTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = AcronymsTest;
 				USES_XCTRUNNER = YES;
@@ -565,7 +565,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = AcronymsTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Mohnish.AcronymsTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sneha.AcronymsTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = AcronymsTest;
 				USES_XCTRUNNER = YES;

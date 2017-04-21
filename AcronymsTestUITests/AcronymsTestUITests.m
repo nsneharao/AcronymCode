@@ -2,8 +2,8 @@
 //  AcronymsTestUITests.m
 //  AcronymsTestUITests
 //
-//  Created by Mohnish vardhan on 21/04/17.
-//  Copyright © 2017 Mohnish. All rights reserved.
+//  Created by Sneha Rao on 04/20/17.
+//  Copyright © 2017 Sneha. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
