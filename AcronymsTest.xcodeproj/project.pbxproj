@@ -16,6 +16,9 @@
 		2DB1ACE91EA98F3600A2601A /* AcronymsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1ACE81EA98F3600A2601A /* AcronymsTestTests.m */; };
 		2DB1ACF41EA98F3600A2601A /* AcronymsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1ACF31EA98F3600A2601A /* AcronymsTestUITests.m */; };
 		8B4ACE79421D417204049015 /* libPods-AcronymsTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7FEA128E842F22FF722FD1 /* libPods-AcronymsTest.a */; };
+		DF1E7D021EA99513008A5C5E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1E7CFD1EA99513008A5C5E /* DetailViewController.m */; };
+		DF1E7D031EA99513008A5C5E /* Webservices.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1E7CFF1EA99513008A5C5E /* Webservices.m */; };
+		DF1E7D041EA99513008A5C5E /* Acronym.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1E7D011EA99513008A5C5E /* Acronym.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		2DB1ACF31EA98F3600A2601A /* AcronymsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcronymsTestUITests.m; sourceTree = "<group>"; };
 		2DB1ACF51EA98F3600A2601A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B42BDCEEADDDB64128178B6 /* Pods-AcronymsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcronymsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcronymsTest/Pods-AcronymsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DF1E7CFC1EA99513008A5C5E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DF1E7CFD1EA99513008A5C5E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DF1E7CFE1EA99513008A5C5E /* Webservices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webservices.h; sourceTree = "<group>"; };
+		DF1E7CFF1EA99513008A5C5E /* Webservices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webservices.m; sourceTree = "<group>"; };
+		DF1E7D001EA99513008A5C5E /* Acronym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Acronym.h; sourceTree = "<group>"; };
+		DF1E7D011EA99513008A5C5E /* Acronym.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Acronym.m; sourceTree = "<group>"; };
 		EBD9F1940D85101EA694F828 /* Pods-AcronymsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcronymsTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcronymsTest/Pods-AcronymsTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +121,12 @@
 				2DB1ACD21EA98F3600A2601A /* AppDelegate.m */,
 				2DB1ACD41EA98F3600A2601A /* ViewController.h */,
 				2DB1ACD51EA98F3600A2601A /* ViewController.m */,
+				DF1E7CFC1EA99513008A5C5E /* DetailViewController.h */,
+				DF1E7CFD1EA99513008A5C5E /* DetailViewController.m */,
+				DF1E7CFE1EA99513008A5C5E /* Webservices.h */,
+				DF1E7CFF1EA99513008A5C5E /* Webservices.m */,
+				DF1E7D001EA99513008A5C5E /* Acronym.h */,
+				DF1E7D011EA99513008A5C5E /* Acronym.m */,
 				2DB1ACD71EA98F3600A2601A /* Main.storyboard */,
 				2DB1ACDA1EA98F3600A2601A /* Assets.xcassets */,
 				2DB1ACDC1EA98F3600A2601A /* LaunchScreen.storyboard */,
@@ -347,7 +362,10 @@
 			files = (
 				2DB1ACD61EA98F3600A2601A /* ViewController.m in Sources */,
 				2DB1ACD31EA98F3600A2601A /* AppDelegate.m in Sources */,
+				DF1E7D031EA99513008A5C5E /* Webservices.m in Sources */,
+				DF1E7D041EA99513008A5C5E /* Acronym.m in Sources */,
 				2DB1ACD01EA98F3600A2601A /* main.m in Sources */,
+				DF1E7D021EA99513008A5C5E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +591,7 @@
 				2DB1ACFA1EA98F3600A2601A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DB1ACFB1EA98F3600A2601A /* Build configuration list for PBXNativeTarget "AcronymsTestTests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +600,7 @@
 				2DB1ACFD1EA98F3600A2601A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DB1ACFE1EA98F3600A2601A /* Build configuration list for PBXNativeTarget "AcronymsTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -589,6 +609,7 @@
 				2DB1AD001EA98F3600A2601A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
