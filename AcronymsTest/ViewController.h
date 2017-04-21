@@ -1,16 +1,21 @@
 //
 //  ViewController.h
-//  AcronymsTest
-//qwreqwe
-
-//  Created by Mohnish vardhan on 21/04/17.
-//  Copyright © 2017 Mohnish. All rights reserved.
+//  Acronyms
+//
+//  Created by Sneha Rao on 04/20/17.
+//  Copyright © 2017 Sneha Rao. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate>
+{
+    IBOutlet UITableView *tbl;
+    IBOutlet UILabel *Alert_lbl;
+    
+    IBOutlet UISearchBar *searchTextBar;
+}
+@property(nonatomic,strong)NSMutableArray *acronymsArray;
 
 @end
 
